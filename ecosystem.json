@@ -1,0 +1,14 @@
+{
+  "apps" : [{
+    "name" : "cornvert.org",
+  }],
+  "deploy" : {
+    "production" : {
+      "user" : "server",
+      "host" : ["cornvert.org"],
+      "ref"  : "origin/master",
+      "repo" : "git@github.com:cornvertor/site.git",
+      "path" : "/var/www/cornvert.org/",
+    }
+  }
+}
