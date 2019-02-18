@@ -2,8 +2,48 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   background-color: #f9f9f9;
+  padding-top: 42px;
+}
+
+.screenshot{
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+h1,h2,h3,h4{
+  letter-spacing: 0.05em;
+}
+
+h3{
+  color: #999;
+  font-weight: 400;
+}
+
+p{
+  color: #999;
 }
 
 .download-button{
-	display: block;
+  margin-top: 8px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 4px;
+  color: #999;
+  font-weight: 500;
+}
+
+.download-button.primary{
+  background-color: #F1F1F1;
+  border: 1px solid #ddd;
+}
+
+.download-button img{
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+a{
+  color: #999;
+  text-decoration: none;
 }
