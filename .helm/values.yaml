@@ -1,0 +1,11 @@
+service:
+  host: cornvert.org
+  path: /
+  name: cornvert-org
+  auth: false
+  getCert: true
+  containerPort: 80
+  port: 80
+image:
+  repository: ghcr.io/cornverter/cornvert.org
+  tag: latest
